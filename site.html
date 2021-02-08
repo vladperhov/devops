@@ -1,11 +1,44 @@
+
 <!doctype html>
 <html>
   <head>
     <meta charset="utf-8">
     <title>ZAGOLOVOK</title>
+    <style>
+	h1 {
+		position:absolute;
+		left:50%;
+		top:30%;
+		transform:translate(-50%,-50%);
+		font-size:125px;
+		color:red;
+		text-shadow: 13px 8px 8px gray;
+		
+	}
+
+	h6 {
+		position: absolute;
+		font-size: 30px;
+		top: 75%;
+		left: 0;
+		animation:post 5s infinite;
+	}
+
+	@keyframes post {
+		0%{
+			left:0%
+		}
+		50%{
+			left:90%
+		}
+		100%{
+			left:0%
+		}
+	}
+    </style>
   </head>
   <body>
     <h1>BIG</h1>
-    <p>small</p>
+    <h6>small</h6>
   </body>
 </html>
